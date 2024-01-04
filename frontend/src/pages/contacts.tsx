@@ -17,8 +17,6 @@ export function ContactsPage() {
     getContacts();
   }, []);
 
-  console.log(contacts);
-
   return (
     <>
       <h1 className="font-bold text-3xl text-indigo-600 mb-12">
@@ -31,12 +29,3 @@ export function ContactsPage() {
     </>
   );
 }
-
-// <div className="bg-neutral-200 rounded-2xl h-64"></div>
-// <div className="bg-neutral-200 rounded-2xl h-64"></div>
-// <div className="bg-neutral-200 rounded-2xl h-64"></div>
-// <div className="bg-neutral-200 rounded-2xl h-64"></div>
-// <div className="bg-neutral-200 rounded-2xl h-64"></div>
-// <div className="bg-neutral-200 rounded-2xl h-64"></div>
-// <div className="bg-neutral-200 rounded-2xl h-64"></div>
-// <div className="bg-neutral-200 rounded-2xl h-64"></div>
