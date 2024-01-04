@@ -27,17 +27,16 @@ export function ContactsPage() {
 
       <div className="grid grid-cols-4 gap-6">
         {contacts?.map((item) => <ContactCard {...item} />)}
-
       </div>
     </>
   );
 }
 
-        // <div className="bg-neutral-200 rounded-2xl h-64"></div>
-        // <div className="bg-neutral-200 rounded-2xl h-64"></div>
-        // <div className="bg-neutral-200 rounded-2xl h-64"></div>
-        // <div className="bg-neutral-200 rounded-2xl h-64"></div>
-        // <div className="bg-neutral-200 rounded-2xl h-64"></div>
-        // <div className="bg-neutral-200 rounded-2xl h-64"></div>
-        // <div className="bg-neutral-200 rounded-2xl h-64"></div>
-        // <div className="bg-neutral-200 rounded-2xl h-64"></div>
+// <div className="bg-neutral-200 rounded-2xl h-64"></div>
+// <div className="bg-neutral-200 rounded-2xl h-64"></div>
+// <div className="bg-neutral-200 rounded-2xl h-64"></div>
+// <div className="bg-neutral-200 rounded-2xl h-64"></div>
+// <div className="bg-neutral-200 rounded-2xl h-64"></div>
+// <div className="bg-neutral-200 rounded-2xl h-64"></div>
+// <div className="bg-neutral-200 rounded-2xl h-64"></div>
+// <div className="bg-neutral-200 rounded-2xl h-64"></div>
