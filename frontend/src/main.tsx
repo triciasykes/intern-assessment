@@ -1,28 +1,18 @@
 import * as React from "react";
 import ReactDOM from "react-dom/client";
 import {
-  Outlet,
   RootRoute,
   Route,
   Router,
   RouterProvider,
 } from "@tanstack/react-router";
-import "@/index.css";
 import { IndexPage } from "@/pages";
 import { ContactsPage } from "@/pages/contacts";
-import { Nav } from "@/components/nav";
-import { Footer } from "@/components/footer";
+import { Layout } from "@/components/layout";
+import "@/index.css";
 
 const rootRoute = new RootRoute({
-  component: () => (
-    <>
-      <Nav />
-      <main className="flex-1 flex flex-col justify-center container my-12">
-        <Outlet />
-      </main>
-      <Footer />
-    </>
-  ),
+  component: Layout,
 });
 
 const indexRoute = new Route({
