@@ -22,7 +22,7 @@ export function Nav() {
     "px-3 py-1.5 rounded-lg font-medium text-neutral-500 hover:bg-neutral-100 [&.active]:text-indigo-600 transition-colors";
 
   return (
-    <nav className="container mt-3">
+    <nav className="container mt-3 sticky top-3">
       <div className="bg-white rounded-xl shadow-lg py-4 px-6 flex items-center justify-between">
         <img src={zoeeLogo} alt="Zoee logo" />
 
