@@ -69,7 +69,7 @@ contacts = [
         "last_name": "Miller",
         "dob": datetime(1983, 7, 19).strftime("%Y-%m-%d"),
         "email": "sarahmiller@gmail.com",
-        "connected_to": 124,
+        "connected_to": 123,
         "avatar": f"https://i.pravatar.cc/{image_size}?img=6"
     },
     {
@@ -78,7 +78,7 @@ contacts = [
         "last_name": "Davis",
         "dob": datetime(1965, 2, 10).strftime("%Y-%m-%d"),
         "email": "robertdavis@gmail.com",
-        "connected_to": 124,
+        "connected_to": 123,
         "avatar": f"https://i.pravatar.cc/{image_size}?img=7"
     },
     {
@@ -87,7 +87,7 @@ contacts = [
         "last_name": "Wilson",
         "dob": datetime(1992, 6, 7).strftime("%Y-%m-%d"),
         "email": "jenniferwilson@gmail.com",
-        "connected_to": 124,
+        "connected_to": 123,
         "avatar": f"https://i.pravatar.cc/{image_size}?img=8"
     },
     {
@@ -208,12 +208,6 @@ def get_user():
 
 @app.route('/contacts')
 def get_contacts():
-    response = json.dumps(contacts)
-    
-    return response
-
-@app.route('/connected-contacts')
-def get_connected_contacts():
     result = []
     
     for contact in contacts:
